@@ -85,4 +85,54 @@ width: 100%;
     line-height: 30px;
 }
 /* row-3 CSS End */
+.row3{
+    height: 500px;
+    width: 100%;
+    background-image:url(../images/banner.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: round;
+    position: relative;
+}
+#overlayrow3{
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+}
+.banner_section{
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    margin: 0 auto;
+}
+.banner_content{}
+.banner_content h1{
+    text-transform: uppercase;
+    font-size: 50px;
+    line-height: 70px;
+    padding-top:200px;
+}
+.banner_content p{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+.banner_button{
+
+}
+.banner_button button{
+    background: none;
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+.banner_button button:hover{
+    background-color: #455964;
+    transition: 1s;
+}
    
