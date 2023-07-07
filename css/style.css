@@ -135,4 +135,65 @@ width: 100%;
     background-color: #455964;
     transition: 1s;
 }
-   
+/* row-3 CSS end */
+/* row-4 CSS start */
+#row4{
+    height: 80px;
+    width: 100%;
+    background: #234757;
+}
+.form_section{
+    width: 90%;
+    margin: 0 auto;
+}
+.text_part{
+    width: 15%;
+    float: left;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+.text_part h4{
+    line-height: 32px;
+}
+.text_part h1{
+    color: #fff;
+}
+.form_part{
+    padding-top: 23px;
+}
+.form_part form{
+    width: 80%;
+    float: left;
+}
+.input_item{
+    float: left; 
+    width: 416px;
+}
+.input_item label{
+    font-size: 18px;
+    font-weight: 500;
+    color: gray;
+    padding-right: 15px;
+}
+.input_item input[type="text"]{
+    padding: 8px;
+    width: 320px;
+    color: gray;
+
+}
+.input_item input[type="date"]{
+    padding: 8px;
+    width: 320px;
+    color: gray;
+}
+.input_item i{
+    color: gray;
+    position: absolute;
+    margin-left: -26px;
+    line-height: 35px;
+}
+.form_part button{
+    padding: 10px 15px;
+    background: lightgray;
+    border: none;
+}   
