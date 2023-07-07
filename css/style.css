@@ -197,3 +197,54 @@ width: 100%;
     background: lightgray;
     border: none;
 }   
+/* row-4 CSS end */
+
+/* row-5 CSS start */
+#row5{
+    height: 500px;
+    width: 100%;
+    background: #fff;
+}
+.offer_section{
+    width: 90%;
+    margin: 0 auto;
+}
+.offer_top{
+    text-align: center;
+    padding: 40px 0px;
+}
+.offer_top h2{}
+.offer_top p{}
+.offer_button{}
+.all_offer_items{}
+.offer_item{
+    width: 230px;
+    float: left;
+    margin-left: 40px;
+    border: 4px solid gray;
+    border-radius: 5px;
+    box-shadow: 2px 2px;
+    padding: 5px;
+    transition: 1s;
+}
+.offer_item:hover{
+transform: scale(1.2);
+}
+.offer_item img{
+    width: 100%;
+    height: 150px;
+}
+.offer_text{
+    width: 80%;
+    float: left;
+}
+.offer_text h3{}
+.offer_text h4{}
+.offer_icon{
+    width: 10%;
+    float: left;
+
+}
+.offer_icon i{}
+
+/* row-5 CSS end */
