@@ -85,7 +85,7 @@ width: 100%;
     line-height: 30px;
 }
 /* row-3 CSS End */
-.row3{
+#row3{
     height: 500px;
     width: 100%;
     background-image:url(../images/banner.jpeg);
