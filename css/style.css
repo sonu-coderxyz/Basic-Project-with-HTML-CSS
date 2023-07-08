@@ -318,5 +318,44 @@ color: #fff;
     
 }
 .holi_item h4{}
-
 /* row-6 CSS end */
+
+/* row-7 CSS start */
+#row7{
+    height: 400px;
+    width: 100%;
+    background: #fff;
+}
+.happy_section{
+    width: 90%;
+    margin: 0 auto;
+}
+.happy_top{
+    text-align: center;
+    padding: 40px 0px;
+
+}
+.happy_top h1{
+    text-transform: uppercase;
+}
+.happy_top p{}
+.happy_bottom{
+    padding-bottom: 40px;
+}
+.happy_item{
+width: 29%;
+float: left;
+margin-left: 15px;
+border: 2px solid skyblue;
+padding: 10px;
+transition: 1s;
+}
+.happy_item:hover{
+    border-top: 5px solid #333;
+}
+.happy_item p{
+    text-align: justify;
+}
+.happy_item h4{}
+
+/* row-7 CSS end */
