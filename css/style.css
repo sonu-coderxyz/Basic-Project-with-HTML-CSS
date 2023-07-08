@@ -201,7 +201,7 @@ width: 100%;
 
 /* row-5 CSS start */
 #row5{
-    height: 500px;
+    height: 400px;
     width: 100%;
     background: #fff;
 }
@@ -220,15 +220,17 @@ width: 100%;
 .offer_item{
     width: 230px;
     float: left;
-    margin-left: 40px;
+    margin-left: 65px;
     border: 4px solid gray;
     border-radius: 5px;
     box-shadow: 2px 2px;
-    padding: 5px;
     transition: 1s;
+    background: pink;
 }
 .offer_item:hover{
 transform: scale(1.2);
+background: #2d3E50;
+color: #fff;
 }
 .offer_item img{
     width: 100%;
@@ -238,13 +240,26 @@ transform: scale(1.2);
     width: 80%;
     float: left;
 }
-.offer_text h3{}
-.offer_text h4{}
+.offer_text h3{
+    font-size: 14px;
+    margin-left: 10px;
+    padding-top: 10px;
+}
+.offer_text h4{
+    font-size: 12px;
+    margin-left: 10px;
+    padding-bottom: 10px;
+}
+.offer_item:hover .offer_text h4{
+    color: gray;
+}
 .offer_icon{
     width: 10%;
     float: left;
-
+    
 }
-.offer_icon i{}
+.offer_icon i{
+    line-height: 50px;
+}
 
 /* row-5 CSS end */
