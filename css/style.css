@@ -359,3 +359,108 @@ transition: 1s;
 .happy_item h4{}
 
 /* row-7 CSS end */
+
+/* row-8 CSS start*/
+#row8{
+    height: 370px;
+    width: 100%;
+    background-color: #303131;
+}
+.footer_section{
+    width: 90%;
+    margin: 0 auto;
+}
+.footer_top{
+    padding: 40px 0px;
+    border-bottom: 2px solid gray;
+    height: 205px;
+}
+.footer_top_item{
+width: 22%;
+float: left;
+color: #fff;
+margin-left: 34px;
+}
+.footer_top_item h2{
+    margin-bottom: 10px;
+}
+.footer_top_item p{
+    font-size: 13px;
+    text-align: justify;
+    line-height: 20px;
+    margin-bottom: 15px;
+    width: 224px;
+}
+.footer_top_item form{}
+.footer_top_item input[type="email"] {
+padding: 5px;
+}
+.footer_top_item button{
+    padding: 7px 10px;
+    background: gray;
+    border: none;
+}
+.news_item{}
+.news_item_left{
+    width: 20%;
+    float: left;
+}
+.news_item_left img{
+    height: 22px;
+    border: 2px solid #fff;
+}
+.news_item_right{
+    width: 70%;
+    float: left;
+}
+.news_item_right h5{
+    margin-top: -2px;
+}
+.news_item_right p{
+    color: gray;
+    font-weight: 600;
+}
+.footer_top_item ul{}
+.footer_top_item ul li{
+    list-style: none;
+    border: 1px solid #fff;
+    display: inline-block;
+    margin: 3px;
+    padding: 3px;
+}
+.footer_top_item h4{
+    font-size: 14px;
+    line-height: 30px;
+}
+.footer_top_item h5{}
+.footer_icon{}
+.footer_icon i{
+    margin-left: 18px;
+}
+.footer_button{}
+.footer_menu{
+    height: 25px;
+}
+.footer_menu ul{
+    width: 434px;
+    margin: 0 auto;
+    margin-top: 6px;
+}
+.footer_menu ul li{
+    float: left;
+    list-style: none;
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+.footer_menu ul li a{
+    color: gray;
+    text-decoration: none;
+}
+.copy_right{}
+.copy_right p{
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
+
+/* row-8 CSS end */
